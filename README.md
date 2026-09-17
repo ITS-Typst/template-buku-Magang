@@ -1,11 +1,19 @@
-# Template Laporan Magang — Typst
+![Hero](assets/brand/readme-hero.webp)
 
-Template Typst untuk Laporan Magang (EF234722, 6 sks)
-Departemen Teknik Informatika ITS. Format mengikuti berkas resmi
-`reference/Template-Magang-Fixed.docx`: kertas **A5 (148 × 210 mm)**,
-margin atas/bawah/kiri 2,5 cm dan kanan 2 cm, huruf Times New Roman 12 pt.
+<div align="center">
+  <h1>Template Laporan Magang — Typst</h1>
 
-## 1. Yang perlu dipasang
+  <p>
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License MIT">
+    <img src="https://img.shields.io/badge/built%20with-Typst-239dad" alt="Built with Typst">
+    <img src="https://img.shields.io/badge/typst-%E2%89%A50.13-blueviolet" alt="Typst ≥ 0.13">
+    <img src="https://img.shields.io/badge/institusi-ITS-0067AB" alt="ITS">
+  </p>
+
+  <p>Template <a href="https://typst.app">Typst</a> untuk Laporan Magang (EF234722, 6 sks) Departemen Teknik Informatika ITS. Format mengikuti berkas resmi <code>reference/Template-Magang-Fixed.docx</code>: kertas <strong>A5 (148 × 210 mm)</strong>, margin atas/bawah/kiri 2,5 cm dan kanan 2 cm, huruf Times New Roman 12 pt.</p>
+</div>
+
+## Yang perlu dipasang
 
 | Alat | Keterangan |
 |---|---|
@@ -13,7 +21,7 @@ margin atas/bawah/kiri 2,5 cm dan kanan 2 cm, huruf Times New Roman 12 pt.
 | Font Times New Roman & Arial | biasanya sudah ada di Windows |
 | VS Code + ekstensi **Tinymist** | opsional, untuk pratinjau langsung |
 
-## 2. Cara pakai singkat
+## Cara pakai singkat
 
 1. Buka `data.yaml`, ganti semua teks dalam kurung siku `[...]` dengan data asli.
 2. Tulis isi laporan di `content/chapters/01-bab1.typ` sampai `07-bab7.typ`.
@@ -26,7 +34,7 @@ margin atas/bawah/kiri 2,5 cm dan kanan 2 cm, huruf Times New Roman 12 pt.
 
 4. Buka `main.pdf`.
 
-## 3. Isi folder
+## Isi folder
 
 ```
 main.typ             perakit dokumen (AUTO — tidak usah diubah)
@@ -56,7 +64,7 @@ Tiap berkas diberi tanda di baris paling atas:
 - **AUTO** → jangan diubah, sudah diatur otomatis.
 - **WAJIB EDIT** → memang harus diisi penulis.
 
-## 4. Fungsi bantu
+## Fungsi bantu
 
 Menyisipkan gambar (otomatis masuk DAFTAR GAMBAR):
 
@@ -87,7 +95,7 @@ Menyisipkan tabel (otomatis masuk DAFTAR TABEL):
 Menyitasi pustaka: tulis `@contoh-buku` di dalam kalimat, kuncinya diambil dari
 `daftar-pustaka.bib`.
 
-## 5. Urutan halaman
+## Urutan halaman
 
 Sampul → Halaman Judul → Daftar Isi → Daftar Gambar → Daftar Tabel →
 Daftar Kode Sumber → Lembar Pengesahan → Abstrak → Kata Pengantar →
@@ -97,7 +105,7 @@ Nomor halaman: angka romawi (i, ii, iii …) untuk bagian awal, angka biasa
 (1, 2, 3 …) mulai Bab I. Antarbagian disisipkan halaman
 "Halaman ini sengaja dikosongkan" sesuai berkas resmi.
 
-## 6. Menambah atau mengurangi bab
+## Menambah atau mengurangi bab
 
 Buat berkas baru di `content/chapters/`, lalu daftarkan di `main.typ`:
 
@@ -106,3 +114,11 @@ Buat berkas baru di `content/chapters/`, lalu daftarkan di `main.typ`:
 ```
 
 Nomor bab, nomor gambar, nomor tabel, dan daftar isi ikut menyesuaikan sendiri.
+
+## Kontributor
+
+[![Contributors](https://contrib.rocks/image?repo=ITS-Typst/template-buku-Magang)](https://github.com/ITS-Typst/template-buku-Magang/graphs/contributors)
+
+## Lisensi
+
+Dirilis di bawah lisensi **MIT** — lihat [LICENSE](LICENSE) untuk teks lengkapnya. Bebas digunakan, dikembangkan, dan disesuaikan dengan kebutuhan.
